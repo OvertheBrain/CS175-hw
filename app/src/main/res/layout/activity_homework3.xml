@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".lesson3.Homework3Activity"
+                android:orientation="vertical"
+
+>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:gravity="center">
+
+        <ImageButton
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like"/>
+
+        <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            <ProgressBar
+                    android:id="@+id/cir1"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminateTint="#E4007F"
+            />
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/coin" android:id="@+id/coin"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp" />
+        </FrameLayout>
+        <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+            <ProgressBar
+                    android:id="@+id/cir2"
+                    style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminateTint="#E4007F"
+            />
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/star" android:id="@+id/star"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
