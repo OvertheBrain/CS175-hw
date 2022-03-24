@@ -8,6 +8,7 @@ import androidx.appcompat.widget.AppCompatButton
 import com.bytedance.jstu.demo.lesson2.BasicUIDemoActivity
 import com.bytedance.jstu.demo.lesson3.Homework3Activity
 import com.bytedance.jstu.demo.lesson4.handler.LessonListActivity
+import com.bytedance.jstu.demo.lesson4.homework.ClockActivity
 import com.bytedance.jstu.demo.lesson5.BasicNetActivity
 
 class MainActivity : AppCompatActivity() {
