@@ -82,6 +82,7 @@ class OkHttpActivity : AppCompatActivity() {
             @SuppressLint("SetTextI18n")
             override fun onResponse(call: Call, response: Response) {
                 val respFormatText = if (response.isSuccessful) {
+                    //我的评价：用起来甚至不如js里的JSON.Parse，下次讲这类东西的时候能讲仔细点嘛，或者作业用例设计的更有针对性点一
                     val bodyString = response.body?.string()
                     val doubanBean = gson.fromJson(bodyString, DoubanBean::class.java)
                     "\n\n\nOriginalname: ${doubanBean.originalName}\nAlias: ${doubanBean.alias}"
