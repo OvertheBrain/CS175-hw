@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.bytedance.jstu.demo.R
+import com.bytedance.jstu.demo.lesson7.hw.Homework7Activity
 
 class BaseMultimediaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +21,7 @@ class BaseMultimediaActivity : AppCompatActivity() {
         open(R.id.videoView, VideoActivity::class.java)
         open(R.id.canvas, CanvasActivity::class.java)
         open(R.id.image, ImageActivity::class.java)
+        open(R.id.homework, Homework7Activity::class.java)
     }
 
 
