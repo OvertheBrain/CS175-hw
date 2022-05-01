@@ -14,6 +14,7 @@ import com.bytedance.jstu.demo.lesson5.TranslatorActivity
 import com.bytedance.jstu.demo.lesson6.StorageActivity
 import com.bytedance.jstu.demo.lesson6.todo.TasksActivity
 import com.bytedance.jstu.demo.lesson7.BaseMultimediaActivity
+import com.bytedance.jstu.demo.lesson8.Homework8Activity
 import com.bytedance.jstu.demo.lesson8.MultimediaActivity
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         addLesson("第五讲 网络", TranslatorActivity::class.java)
         addLesson("第六讲 存储", TasksActivity::class.java)
         addLesson("第七讲 多媒体基础", BaseMultimediaActivity::class.java)
-        addLesson("第八讲 多媒体进阶", MultimediaActivity::class.java)
+        addLesson("第八讲 多媒体进阶", Homework8Activity::class.java)
         addLesson("第九讲 新技术趋势", BasicUIDemoActivity::class.java)
     }
 

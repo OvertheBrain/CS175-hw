@@ -18,6 +18,10 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Demo">
         <activity
+                android:name=".lesson8.Homework8Activity"
+                android:screenOrientation="sensorPortrait"
+                android:exported="true"/>
+        <activity
                 android:name=".lesson7.hw.VideoPlayActivity"
                 android:exported="true"/>
         <activity
